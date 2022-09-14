@@ -78,6 +78,10 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  head: {
+    //muda nome no título da Home
+    titleTemplate: "%s | Home" 
+  }
 }
 </script>
